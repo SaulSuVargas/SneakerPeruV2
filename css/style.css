@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #090A1A;
+}
+
+.lupa{
+    font-weight: 900;
+}
+
+.navbar{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+.titulo{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2PX;
+}
+
+.active{
+    color: #0940F2 !important;
+}
+
+.icons{
+    margin-bottom: 1rem;
+}
+
+.btn3 {
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    background-image: linear-gradient(30deg, #0940F2, #4710A0);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+}
+   
+.btn3:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+   
+.btn2 {
+    border:solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+}
+   
+.btn2:hover {
+    border: none;
+    background-image: linear-gradient(30deg, #0940F2, #4710A0);
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+   
+
+.subtitulo{
+    font-size: 2rem;
+    color: #fff !important;
+    display: flex;
+}
+
+.subtitulo_p{
+    font-size: 1rem;
+    display: flex;
+}
+
+.logo{
+    color: #fff !important;
+}
+
+.nav-link{
+    color: #fff !important;
+}
+
+.navbar-toggler-icon{
+    color: #fff !important;
+}
+
+.creditos{
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.card-img-top{
+    border-radius: 50px;
+    padding: 45px;
+}
+.card{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    background-color: #16182D !important;
+    color: #fff !important;
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.btn-primary{
+    border-radius: 50px;
+    width: 120px;
+}
+.btn-primary:hover{
+    background-color: black;
+    border: none;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 4rem;
+    letter-spacing: -4px;
+}
+h2{
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing: -2px;
+    margin-bottom: 1.5rem;
+}
+h3{
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.img {
+    width: 400px;
+}
+
+aside{
+    background-color: #191241 !important;
+    border-radius: 40px !important;
+}
+
+.novedades{
+    justify-content: space-between !important;
+    column-gap: 15rem !important;
+}
+
+footer{
+    background-color: #121324 !important;
+}
+
+@media(max-width:768px){
+    .titulo{
+        font-size: 2.8rem;
+    }
+}
+@media(max-width:992px){
+    #conferencia{
+        padding: 90px 0;
+    }
+}
+@media (min-width: 1600px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1520px;
+    }
+}
